@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>南江的电子衣橱</title>
+    <link rel="stylesheet" href="./wardrobe-catalog.css" />
+</head>
+<body>
+    <div class="app-shell">
+        <header class="topbar">
+            <div class="brand">
+                <span class="brand-mark">衣</span>
+                <div class="brand-copy">
+                    <strong>南江的衣橱</strong>
+                    <span>归档、筛选、统计、购买判断</span>
+                </div>
+            </div>
+
+            <nav class="top-tabs" aria-label="页面切换">
+                <button class="tab-btn active" type="button" data-tab="home">首页</button>
+                <button class="tab-btn" type="button" data-tab="closet">衣橱</button>
+                <button class="tab-btn" type="button" data-tab="hub">工具页</button>
+            </nav>
+
+            <div class="top-actions">
+                <button class="icon-btn" id="exportBtn" type="button" title="导出 JSON" aria-label="导出 JSON">⇩</button>
+            </div>
+        </header>
+
+        <main>
+            <section class="tab-panel active" id="tab-home">
+                <div class="home-layout">
+                    <article class="profile-summary card">
+                        <div class="summary-top">
+                            <div class="summary-user">
+                                <div class="avatar-pill">南</div>
+                                <div>
+                                    <div class="summary-title">尺码档案</div>
+                                    <div class="summary-subtitle">首页保留丝巾般柔软的鼠标跟随与点击风痕</div>
+                                </div>
+                            </div>
+                            <button class="primary-btn" id="saveHomeBtn" type="button">保存首页</button>
+                        </div>
+
+                        <div class="summary-metrics" id="homeSummaryMetrics"></div>
+                    </article>
+
+                    <div class="home-stage-grid">
+                        <article class="home-stage card" id="homeInteractiveStage">
+                            <div class="silk-layer silk-layer-a"></div>
+                            <div class="silk-layer silk-layer-b"></div>
+                            <div class="silk-layer silk-layer-c"></div>
+                            <div class="stage-glow"></div>
+                            <div class="stage-orbit orbit-bust"></div>
+                            <div class="stage-orbit orbit-waist"></div>
+                            <div class="stage-orbit orbit-foot"></div>
+                            <div class="wind-trace-layer" id="windTraceLayer"></div>
+
+                            <svg class="mannequin-svg" viewBox="0 0 420 920" aria-hidden="true">
+                                <defs>
+                                    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" stop-color="#ffffff"></stop>
+                                        <stop offset="55%" stop-color="#f5f7ff"></stop>
+                                        <stop offset="100%" stop-color="#ebeefd"></stop>
+                                    </linearGradient>
+                                    <linearGradient id="limbGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" stop-color="#ffffff"></stop>
+                                        <stop offset="100%" stop-color="#e8edff"></stop>
+                                    </linearGradient>
+                                    <radialGradient id="pedestalGradient" cx="50%" cy="45%" r="65%">
+                                        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"></stop>
+                                        <stop offset="100%" stop-color="#dfe6ff" stop-opacity="0.65"></stop>
+                                    </radialGradient>
+                                </defs>
+
+                                <ellipse cx="210" cy="820" rx="165" ry="46" fill="url(#pedestalGradient)" opacity="0.9"></ellipse>
+                                <ellipse cx="210" cy="804" rx="132" ry="24" fill="#f9fbff" opacity="0.96"></ellipse>
+
+                                <ellipse cx="210" cy="112" rx="54" ry="66" fill="url(#bodyGradient)"></ellipse>
+                                <path d="M176 177 C188 161 201 154 210 154 C219 154 232 161 244 177 L270 230 C287 265 292 304 291 362 L286 456 C285 483 270 504 245 514 L232 519 C223 523 197 523 188 519 L175 514 C150 504 135 483 134 456 L129 362 C128 304 133 265 150 230 Z" fill="url(#bodyGradient)"></path>
+                                <path d="M146 226 C104 286 92 352 94 462 C96 554 108 640 126 714" fill="none" stroke="url(#limbGradient)" stroke-width="30" stroke-linecap="round"></path>
+                                <path d="M274 226 C316 286 328 352 326 462 C324 554 312 640 294 714" fill="none" stroke="url(#limbGradient)" stroke-width="30" stroke-linecap="round"></path>
+                                <path d="M182 514 C166 603 156 688 156 790" fill="none" stroke="url(#limbGradient)" stroke-width="34" stroke-linecap="round"></path>
+                                <path d="M238 514 C254 603 264 688 264 790" fill="none" stroke="url(#limbGradient)" stroke-width="34" stroke-linecap="round"></path>
+                                <ellipse cx="149" cy="813" rx="34" ry="14" fill="#f7f9ff"></ellipse>
+                                <ellipse cx="270" cy="813" rx="34" ry="14" fill="#f7f9ff"></ellipse>
+                            </svg>
+
+                            <div class="measurement-markers" id="measurementMarkers"></div>
+
+                            <div class="stage-cta-row">
+                                <button class="soft-btn" type="button">AI 智能试穿</button>
+                                <button class="soft-btn" type="button">AI 一键量体</button>
+                            </div>
+                        </article>
+
+                        <aside class="home-side">
+                            <form class="measure-cards" id="homeProfileForm">
+                                <article class="measure-card card body-measure-card">
+                                    <div class="measure-card-title">
+                                        <span class="mini-icon">尺</span>
+                                        <strong>我的人体尺寸</strong>
+                                    </div>
+
+                                    <div class="body-measure-panel">
+                                        <div class="body-measure-figure">
+                                            <svg class="body-measure-svg" viewBox="0 0 180 250" aria-hidden="true">
+                                                <g fill="none" stroke="#c8b39c" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                                    <path d="M89 18c12 0 19 10 19 22 0 9-5 16-11 19v11c8 4 18 13 20 28l6 37c2 15 1 34-4 52l-9 58h-8l2-58-6-39-7 41-4 56H81l-4-56-7-41-6 39 2 58h-8l-9-58c-5-18-6-37-4-52l6-37c2-15 12-24 20-28V59c-6-3-11-10-11-19 0-12 7-22 19-22h10Z"/>
+                                                    <path d="M71 48c5 4 11 6 18 6 7 0 13-2 18-6"/>
+                                                    <path d="M62 101h56"/>
+                                                    <path d="M58 141h64"/>
+                                                    <path d="M64 176h52"/>
+                                                </g>
+                                                <g fill="#b49274" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="11">
+                                                    <text x="8" y="97">肩宽</text>
+                                                    <text x="8" y="119">胸围</text>
+                                                    <text x="8" y="145">腰围</text>
+                                                    <text x="8" y="180">臀围</text>
+                                                    <text x="8" y="220">裤长</text>
+                                                </g>
+                                                <g stroke="#d5c5b3" stroke-width="1.2">
+                                                    <line x1="34" y1="94" x2="62" y2="94"/>
+                                                    <line x1="34" y1="116" x2="72" y2="116"/>
+                                                    <line x1="34" y1="142" x2="78" y2="142"/>
+                                                    <line x1="34" y1="177" x2="78" y2="177"/>
+                                                    <line x1="34" y1="217" x2="73" y2="217"/>
+                                                </g>
+                                            </svg>
+                                        </div>
+
+                                        <div class="body-measure-list-wrap">
+                                            <div class="body-measure-list" id="bodyMeasureList"></div>
+                                            <div class="body-measure-meta">
+                                                <span id="bodyMeasureUpdatedAt">最近更新：-</span>
+                                                <button class="ghost-btn body-measure-save" type="button" id="saveBodyMeasureBtn">编辑尺寸</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="body-measure-secondary" id="bodyMeasureSecondary"></div>
+                                </article>
+
+                                <article class="measure-card card style-note-card">
+                                    <div class="measure-card-title">
+                                        <span class="mini-icon">风</span>
+                                        <strong>风格备注</strong>
+                                    </div>
+                                    <div class="style-stack">
+                                        <label class="field">
+                                            <span>风格标题</span>
+                                            <input id="styleTitleInput" type="text" />
+                                        </label>
+                                        <label class="field">
+                                            <span>风格描述</span>
+                                            <textarea id="styleDescriptionInput" rows="5"></textarea>
+                                        </label>
+                                        <div class="style-preview">
+                                            <div class="style-preview-title" id="stylePreviewTitle"></div>
+                                            <div class="style-preview-copy" id="stylePreviewDescription"></div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </form>
+                        </aside>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tab-panel" id="tab-closet">
+                <div class="closet-layout">
+                    <aside class="closet-sidebar card">
+                        <div class="sidebar-heading">分类导航</div>
+                        <div class="sidebar-groups" id="sidebarGroupList"></div>
+                        <div class="sidebar-note">
+                            <div class="sidebar-note-title">整理提醒</div>
+                            <div class="sidebar-note-copy" id="sidebarReminder"></div>
+                        </div>
+                    </aside>
+
+                    <div class="closet-main">
+                        <article class="closet-toolbar card">
+                            <div class="toolbar-top">
+                                <label class="search-field">
+                                    <span class="search-icon">⌕</span>
+                                    <input id="searchInput" type="search" placeholder="搜索衣物 / 品牌 / 标签" />
+                                </label>
+                                <div class="toolbar-actions">
+                                    <button class="ghost-btn" id="newItemBtn" type="button">＋ 快速添加</button>
+                                    <button class="ghost-btn" id="clearFiltersBtn" type="button">清空筛选</button>
+                                </div>
+                            </div>
+
+                            <div class="closet-stats" id="closetSummaryCards"></div>
+
+                            <div class="category-chip-bar" id="categoryChipBar"></div>
+
+                            <div class="filter-bar">
+                                <label class="field">
+                                    <span>颜色</span>
+                                    <select id="colorFilter"></select>
+                                </label>
+                                <label class="field">
+                                    <span>材质</span>
+                                    <select id="materialFilter"></select>
+                                </label>
+                                <label class="field">
+                                    <span>版型</span>
+                                    <select id="fitFilter"></select>
+                                </label>
+                                <label class="field">
+                                    <span>状态</span>
+                                    <select id="statusFilter"></select>
+                                </label>
+                                <label class="field">
+                                    <span>排序</span>
+                                    <select id="sortFilter"></select>
+                                </label>
+                            </div>
+
+                            <div class="active-filter-row">
+                                <div class="result-count" id="resultCount"></div>
+                                <div class="filter-chips" id="activeFilterChips"></div>
+                            </div>
+                        </article>
+
+                        <div class="closet-item-grid" id="closetItemGrid"></div>
+                    </div>
+
+                    <aside class="closet-rail">
+                        <article class="card rail-card">
+                            <div class="rail-title-row">
+                                <strong>整理提醒</strong>
+                            </div>
+                            <div class="legend-list" id="closetReminderList"></div>
+                        </article>
+
+                        <article class="card rail-card">
+                            <div class="rail-title-row">
+                                <strong>快捷操作</strong>
+                            </div>
+                            <div class="rail-action-list">
+                                <button class="ghost-btn rail-action-btn" type="button" data-quick-action="add">添加衣物</button>
+                                <button class="ghost-btn rail-action-btn" type="button" data-quick-action="clear">清空筛选</button>
+                                <button class="ghost-btn rail-action-btn" type="button" data-quick-action="export">导出清单</button>
+                            </div>
+                        </article>
+                    </aside>
+                </div>
+            </section>
+
+            <section class="tab-panel" id="tab-hub">
+                <div class="hub-layout">
+                    <article class="hub-actions card">
+                        <div class="section-title-row">
+                            <h2>工具汇总</h2>
+                            <span class="section-tip">设置、分享、统计、建议浓缩在这一页</span>
+                        </div>
+                        <div class="action-grid">
+                            <button class="action-tile" id="importTile" type="button">
+                                <span class="action-icon">⇪</span>
+                                <span>导入</span>
+                            </button>
+                            <button class="action-tile" id="shareUrlBtn" type="button">
+                                <span class="action-icon">⤴</span>
+                                <span>分享链接</span>
+                            </button>
+                            <button class="action-tile" id="copyCommandBtn" type="button">
+                                <span class="action-icon">⌘</span>
+                                <span>启动命令</span>
+                            </button>
+                            <button class="action-tile" id="exportTile" type="button">
+                                <span class="action-icon">⇩</span>
+                                <span>导出</span>
+                            </button>
+                        </div>
+                        <input id="importInput" type="file" accept="application/json" hidden />
+                        <p class="hub-hint" id="shareHint"></p>
+                    </article>
+
+                    <div class="hub-grid">
+                        <article class="hub-card card">
+                            <div class="hub-card-header">
+                                <span class="mini-icon">统</span>
+                                <strong>衣橱概览</strong>
+                            </div>
+                            <div class="mini-stats" id="hubMiniStats"></div>
+                        </article>
+
+                        <article class="hub-card card">
+                            <div class="hub-card-header">
+                                <span class="mini-icon">类</span>
+                                <strong>分类占比</strong>
+                            </div>
+                            <div class="legend-list" id="categoryLegend"></div>
+                        </article>
+
+                        <article class="hub-card card">
+                            <div class="hub-card-header">
+                                <span class="mini-icon">色</span>
+                                <strong>颜色占比</strong>
+                            </div>
+                            <div class="legend-list" id="colorLegend"></div>
+                        </article>
+
+                        <article class="hub-card card">
+                            <div class="hub-card-header">
+                                <span class="mini-icon">店</span>
+                                <strong>店铺观察</strong>
+                            </div>
+                            <div class="legend-list" id="storeLegend"></div>
+                        </article>
+
+                        <article class="hub-card card hub-assistant">
+                            <div class="hub-card-header">
+                                <span class="mini-icon">购</span>
+                                <strong>购买建议</strong>
+                            </div>
+                            <form id="assistantForm" class="assistant-form">
+                                <label class="field">
+                                    <span>单品名称</span>
+                                    <input id="candidateName" type="text" />
+                                </label>
+                                <label class="field">
+                                    <span>分类</span>
+                                    <select id="candidateCategory"></select>
+                                </label>
+                                <label class="field">
+                                    <span>颜色</span>
+                                    <input id="candidateColor" type="text" list="candidateColorSuggestions" />
+                                </label>
+                                <label class="field">
+                                    <span>材质</span>
+                                    <input id="candidateMaterial" type="text" />
+                                </label>
+                                <label class="field">
+                                    <span>版型</span>
+                                    <input id="candidateFit" type="text" />
+                                </label>
+                                <label class="field">
+                                    <span>店铺</span>
+                                    <input id="candidateStore" type="text" />
+                                </label>
+                                <button class="primary-btn" type="submit">分析</button>
+                            </form>
+                            <datalist id="candidateColorSuggestions"></datalist>
+                            <div class="assistant-result" id="assistantResult"></div>
+                        </article>
+
+                        <article class="hub-card card">
+                            <div class="hub-card-header">
+                                <span class="mini-icon">设</span>
+                                <strong>分类管理</strong>
+                            </div>
+                            <div class="category-manager" id="categoryManager"></div>
+                            <div class="category-actions">
+                                <button class="ghost-btn" id="addCategoryBtn" type="button">新增分类</button>
+                                <button class="primary-btn" id="saveCategoriesBtn" type="button">保存分类</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div class="modal-backdrop hidden" id="itemModal">
+        <div class="modal-card card">
+            <div class="modal-header">
+                <div>
+                    <div class="summary-title" id="itemModalTitle">新增衣物</div>
+                    <div class="summary-subtitle">先录核心信息，细项在卡片背面继续编辑</div>
+                </div>
+                <button class="icon-btn" id="closeModalBtn" type="button" aria-label="关闭">×</button>
+            </div>
+
+            <form id="itemForm" class="modal-form">
+                <label class="field">
+                    <span>单品名称</span>
+                    <input id="itemName" type="text" required />
+                </label>
+                <label class="field">
+                    <span>分类</span>
+                    <select id="itemCategory" required></select>
+                </label>
+                <label class="field">
+                    <span>颜色</span>
+                    <input id="itemColor" type="text" list="itemColorSuggestions" />
+                </label>
+                <label class="field">
+                    <span>材质</span>
+                    <input id="itemMaterial" type="text" />
+                </label>
+                <label class="field">
+                    <span>版型</span>
+                    <input id="itemFit" type="text" />
+                </label>
+                <label class="field">
+                    <span>店铺</span>
+                    <input id="itemStore" type="text" />
+                </label>
+                <label class="field field-full">
+                    <span>图片</span>
+                    <div class="paste-zone" id="imagePasteZone" tabindex="0">
+                        <div class="paste-zone-copy">点这里后直接粘贴图片，或使用 Ctrl+V / Command+V</div>
+                        <div class="paste-zone-preview" id="itemImagePreview"></div>
+                    </div>
+                </label>
+
+                <div class="modal-actions">
+                    <button class="ghost-btn" id="cancelModalBtn" type="button">取消</button>
+                    <button class="primary-btn" type="submit">保存衣物</button>
+                </div>
+            </form>
+            <datalist id="itemColorSuggestions"></datalist>
+        </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="./wardrobe-catalog.js"></script>
+</body>
+</html>

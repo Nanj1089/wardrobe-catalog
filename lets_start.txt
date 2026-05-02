@@ -1,0 +1,2 @@
+cd D:\Codex_Data\WardrobeCatalog
+npm run dev
