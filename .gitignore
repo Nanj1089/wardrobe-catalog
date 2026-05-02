@@ -2,7 +2,7 @@ node_modules/
 dist/
 .DS_Store
 .env.local
-Data/
+/Data/
 share-server.err.log
 share-server.out.log
 wardrobe-shared-store.json

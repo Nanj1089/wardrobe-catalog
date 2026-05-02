@@ -1,0 +1,2419 @@
+{
+  "version": "3.0.0",
+  "updatedAt": "2026-04-23T12:35:31.897Z",
+  "profile": {
+    "displayName": "我",
+    "styleTitle": "港风、老钱、文艺与一点故事感的复古衣橱",
+    "styleDescription": "白色打底、温柔轻暖、偏简约但不简单。\n核心气质是港风和老钱的克制，夹一点文艺与浅波西米亚。",
+    "categories": [
+      "内衣",
+      "内搭",
+      "衬衫",
+      "卫衣",
+      "马甲",
+      "毛衣",
+      "大衣",
+      "羽绒",
+      "外套",
+      "风衣",
+      "冲锋衣",
+      "裤子",
+      "半裙",
+      "连衣裙",
+      "上衣非打底",
+      "夏季吊带或抹胸",
+      "夏季背心",
+      "夏季半袖",
+      "披肩"
+    ],
+    "measurements": {
+      "height": "178",
+      "weight": "61",
+      "shoeSize": "41.5",
+      "braSize": "",
+      "shoulder": "39",
+      "armLength": "57",
+      "bust": "88",
+      "underbust": "75",
+      "waist": "71",
+      "hip": "97",
+      "legLength": "98",
+      "thigh": "54",
+      "footLength": "25.2",
+      "footWidth": ""
+    }
+  },
+  "items": [
+    {
+      "id": "wardrobe-1776947501015-027c9f95",
+      "name": "哥弟羊毛高领修身半拉链",
+      "category": "毛衣",
+      "color": "灰色",
+      "material": "纯羊毛",
+      "fit": "高领修身半拉链",
+      "store": "哥弟",
+      "wearFrequency": "中频",
+      "favorite": 5,
+      "styleTags": [
+        "通勤"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T12:31:41.015Z",
+      "updatedAt": "2026-04-23T12:31:53.594Z"
+    },
+    {
+      "id": "wardrobe-1776947423969-7574c66d",
+      "name": "哥弟羊毛高领修身半拉链",
+      "category": "毛衣",
+      "color": "烟粉",
+      "material": "纯羊毛",
+      "fit": "修身高领半拉链",
+      "store": "哥弟",
+      "wearFrequency": "中频",
+      "favorite": 5,
+      "styleTags": [
+        "通勤"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T12:30:23.970Z",
+      "updatedAt": "2026-04-23T12:31:29.476Z"
+    },
+    {
+      "id": "wardrobe-1776947317929-bb582ec1",
+      "name": "UR翻领中短",
+      "category": "毛衣",
+      "color": "燕麦",
+      "material": "聚酯纤维",
+      "fit": "翻领拉链开衫",
+      "store": "UR",
+      "wearFrequency": "",
+      "favorite": 3,
+      "styleTags": [
+        "日常外搭"
+      ],
+      "status": "在穿",
+      "seasons": [],
+      "createdAt": "2026-04-23T12:28:37.929Z",
+      "updatedAt": "2026-04-23T12:33:48.073Z"
+    },
+    {
+      "id": "wardrobe-1776947289464-773b9b68",
+      "name": "UR毛毛翻领短款",
+      "category": "毛衣",
+      "color": "黑色",
+      "material": "聚酯纤维",
+      "fit": "翻领拉链短款",
+      "store": "UR",
+      "wearFrequency": "",
+      "favorite": 3,
+      "styleTags": [
+        "日常外搭",
+        "通勤"
+      ],
+      "status": "在穿",
+      "seasons": [],
+      "createdAt": "2026-04-23T12:28:09.464Z",
+      "updatedAt": "2026-04-23T12:34:06.512Z"
+    },
+    {
+      "id": "wardrobe-1776947263650-5c72b694",
+      "name": "几里与麻高领纽扣修身开衫",
+      "category": "毛衣",
+      "color": "白色",
+      "material": "聚酯纤维",
+      "fit": "修身高领纽扣开衫",
+      "store": "几里与麻",
+      "wearFrequency": "高频",
+      "favorite": 3,
+      "styleTags": [
+        "通勤",
+        "日常外搭"
+      ],
+      "status": "在穿",
+      "seasons": [],
+      "createdAt": "2026-04-23T12:27:43.650Z",
+      "updatedAt": "2026-04-23T12:33:20.429Z"
+    },
+    {
+      "id": "wardrobe-1776947195219-793af47b",
+      "name": "优衣库v领短款开衫",
+      "category": "毛衣",
+      "color": "浅灰",
+      "material": "聚酯纤维",
+      "fit": "v领短款开衫",
+      "store": "优衣库",
+      "wearFrequency": "",
+      "favorite": 3,
+      "styleTags": [
+        "叠穿"
+      ],
+      "status": "在穿",
+      "seasons": [],
+      "createdAt": "2026-04-23T12:26:35.219Z",
+      "updatedAt": "2026-04-23T12:32:42.172Z"
+    },
+    {
+      "id": "wardrobe-1776947161373-e3635cc7",
+      "name": "拉夫劳伦",
+      "category": "毛衣",
+      "color": "米白",
+      "material": "聚酯纤维",
+      "fit": "宽松圆领纽扣开衫",
+      "store": "拉夫劳伦",
+      "wearFrequency": "",
+      "favorite": 3,
+      "styleTags": [
+        "品牌"
+      ],
+      "status": "在穿",
+      "seasons": [],
+      "createdAt": "2026-04-23T12:26:01.373Z",
+      "updatedAt": "2026-04-23T12:32:20.535Z"
+    },
+    {
+      "id": "wardrobe-1776946972574-27dd19a1",
+      "name": "pusumede修身绞花",
+      "category": "毛衣",
+      "color": "灰色",
+      "material": "聚酯纤维",
+      "fit": "绞花修身高领短款拉链开衫",
+      "store": "pusumede",
+      "wearFrequency": "",
+      "favorite": 3,
+      "styleTags": [
+        "日常外搭"
+      ],
+      "status": "在穿",
+      "seasons": [],
+      "createdAt": "2026-04-23T12:22:52.574Z",
+      "updatedAt": "2026-04-23T12:33:12.156Z"
+    },
+    {
+      "id": "wardrobe-1776946836743-9103f606",
+      "name": "UR高领短款",
+      "category": "毛衣",
+      "color": "红色",
+      "material": "聚酯纤维",
+      "fit": "高领短款套衫",
+      "store": "UR",
+      "wearFrequency": "高频",
+      "favorite": 5,
+      "styleTags": [
+        "约会"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "冬"
+      ],
+      "createdAt": "2026-04-23T12:20:36.743Z",
+      "updatedAt": "2026-04-23T12:21:38.638Z"
+    },
+    {
+      "id": "wardrobe-1776946700510-a50e929a",
+      "name": "UR线条装饰圆领宽大款",
+      "category": "毛衣",
+      "color": "白色",
+      "material": "聚酯纤维",
+      "fit": "圆领长款套衫",
+      "store": "UR",
+      "wearFrequency": "",
+      "favorite": 3,
+      "styleTags": [],
+      "status": "在穿",
+      "seasons": [],
+      "createdAt": "2026-04-23T12:18:20.510Z",
+      "updatedAt": "2026-04-23T12:21:52.286Z"
+    },
+    {
+      "id": "wardrobe-1776931876470-dc55a1af",
+      "name": "麂皮大背心",
+      "category": "马甲",
+      "color": "卡其",
+      "material": "麂皮",
+      "fit": "长款",
+      "store": "线上",
+      "wearFrequency": "低频",
+      "favorite": 1,
+      "styleTags": [],
+      "status": "闲置",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T08:11:16.470Z",
+      "updatedAt": "2026-04-23T08:11:39.377Z"
+    },
+    {
+      "id": "wardrobe-1776931749837-04414d08",
+      "name": "单穿卫衣",
+      "category": "卫衣",
+      "color": "咖色",
+      "material": "纯棉",
+      "fit": "长款",
+      "store": "线下店铺",
+      "wearFrequency": "低频",
+      "favorite": 2,
+      "styleTags": [
+        "无拉链",
+        "无帽",
+        "休闲"
+      ],
+      "status": "闲置",
+      "seasons": [
+        "春",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T08:09:09.837Z",
+      "updatedAt": "2026-04-23T08:09:28.918Z"
+    },
+    {
+      "id": "wardrobe-1776931698367-4fb1c334",
+      "name": "单穿卫衣",
+      "category": "卫衣",
+      "color": "白色",
+      "material": "纯棉",
+      "fit": "长款",
+      "store": "几里与麻",
+      "wearFrequency": "低频",
+      "favorite": 2,
+      "styleTags": [
+        "无拉链",
+        "无帽",
+        "休闲",
+        "内搭"
+      ],
+      "status": "闲置",
+      "seasons": [
+        "春",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T08:08:18.367Z",
+      "updatedAt": "2026-04-23T08:09:13.731Z"
+    },
+    {
+      "id": "wardrobe-1776931590308-c6b33659",
+      "name": "卫衣外套",
+      "category": "卫衣",
+      "color": "浅灰",
+      "material": "纯棉",
+      "fit": "长款",
+      "store": "",
+      "wearFrequency": "低频",
+      "favorite": 2,
+      "styleTags": [
+        "有拉链",
+        "有帽",
+        "通勤"
+      ],
+      "status": "闲置",
+      "seasons": [],
+      "createdAt": "2026-04-23T08:06:30.308Z",
+      "updatedAt": "2026-04-23T08:07:01.872Z"
+    },
+    {
+      "id": "wardrobe-1776930684537-0d1d8509",
+      "name": "DeepBreath卫衣",
+      "category": "卫衣",
+      "color": "深灰",
+      "material": "纯棉羊毛",
+      "fit": "修身",
+      "store": "哥弟",
+      "wearFrequency": "低频",
+      "favorite": 5,
+      "styleTags": [
+        "无拉链",
+        "有帽",
+        "品牌"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T07:51:24.537Z",
+      "updatedAt": "2026-04-23T07:51:45.754Z"
+    },
+    {
+      "id": "wardrobe-1776930429711-5b652cde",
+      "name": "娅可家条纹衬衫",
+      "category": "衬衫",
+      "color": "卡其",
+      "material": "纯棉",
+      "fit": "正常",
+      "store": "娅可家",
+      "wearFrequency": "高频",
+      "favorite": 4,
+      "styleTags": [
+        "基础",
+        "通勤"
+      ],
+      "status": "在穿",
+      "seasons": [],
+      "createdAt": "2026-04-23T07:47:09.711Z",
+      "updatedAt": "2026-04-23T07:47:29.465Z"
+    },
+    {
+      "id": "wardrobe-1776930245066-d1c9e347",
+      "name": "缎面珍珠扣领带",
+      "category": "衬衫",
+      "color": "白色",
+      "material": "绸缎",
+      "fit": "正常",
+      "store": "",
+      "wearFrequency": "低频",
+      "favorite": 5,
+      "styleTags": [
+        "通勤",
+        "职场"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "夏",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T07:44:05.066Z",
+      "updatedAt": "2026-04-23T07:44:48.010Z"
+    },
+    {
+      "id": "wardrobe-1776930126373-e393b800",
+      "name": "胡艺杋 V 领交叉",
+      "category": "内搭",
+      "color": "卡其",
+      "material": "聚酯纤维",
+      "fit": "修身",
+      "store": "胡艺杋",
+      "wearFrequency": "中频",
+      "favorite": 3,
+      "styleTags": [],
+      "status": "在穿",
+      "seasons": [],
+      "createdAt": "2026-04-23T07:42:06.373Z",
+      "updatedAt": "2026-04-23T07:42:15.889Z"
+    },
+    {
+      "id": "3f89aa06-7fa6-4655-8ab7-1264c8f85d97",
+      "name": "棉棉杯",
+      "category": "内衣",
+      "color": "裸色",
+      "material": "纯棉",
+      "fit": "胸衣",
+      "store": "",
+      "wearFrequency": "中频",
+      "favorite": 2,
+      "styleTags": [
+        "基础",
+        "贴身"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "夏",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T06:26:43.427Z",
+      "updatedAt": "2026-04-23T06:26:43.427Z"
+    },
+    {
+      "id": "1cd83159-c550-45c0-a8fc-2e5fd79c61f9",
+      "name": "依柚美背",
+      "category": "内衣",
+      "color": "白色",
+      "material": "聚酯纤维",
+      "fit": "胸衣",
+      "store": "依柚",
+      "wearFrequency": "低频",
+      "favorite": 1,
+      "styleTags": [
+        "基础",
+        "贴身"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "夏"
+      ],
+      "createdAt": "2026-04-23T06:25:41.274Z",
+      "updatedAt": "2026-04-23T06:25:41.274Z"
+    },
+    {
+      "id": "62205395-6b5c-4294-93b2-5e8a83dad64f",
+      "name": "Miiow 蕾丝吊带",
+      "category": "内衣",
+      "color": "白色",
+      "material": "纯棉",
+      "fit": "胸衣",
+      "store": "Miiow",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "基础",
+        "贴身",
+        "内搭",
+        "叠穿"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T05:53:40.338Z",
+      "updatedAt": "2026-04-23T05:59:04.189Z"
+    },
+    {
+      "id": "95cb48ae-81d1-4371-a12b-9d5aec096730",
+      "name": "古今蕾丝钢圈内衣",
+      "category": "内衣",
+      "color": "白色",
+      "material": "纯棉",
+      "fit": "约会",
+      "store": "古今",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "基础",
+        "贴身"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "夏",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T05:52:16.337Z"
+    },
+    {
+      "id": "f161637c-650c-4d49-b8be-5fa4e53b8075",
+      "name": "Miiow 蕾丝吊带背心",
+      "category": "内衣",
+      "color": "黑色",
+      "material": "纯棉",
+      "fit": "背心",
+      "store": "Miiow",
+      "wearFrequency": "中频",
+      "favorite": 3,
+      "styleTags": [
+        "内搭",
+        "蕾丝"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T05:51:41.462Z"
+    },
+    {
+      "id": "ccbb100a-a94b-422f-a2a3-c0c00c1cb5bc",
+      "name": "CK 花灰内衣",
+      "category": "内衣",
+      "color": "花灰",
+      "material": "聚酯纤维",
+      "fit": "胸衣",
+      "store": "CK",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "基础 运动"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "夏",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T05:52:21.978Z"
+    },
+    {
+      "id": "a0b495b2-2634-4f2e-a66e-48ec3866d195",
+      "name": "Ubras 小高领打底",
+      "category": "内搭",
+      "color": "黑色",
+      "material": "聚酯纤维",
+      "fit": "修身",
+      "store": "Ubras",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "基础",
+        "老钱"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "夏",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T07:25:26.180Z"
+    },
+    {
+      "id": "edd81aa1-1fca-4b75-89c0-d02dd7dd4df0",
+      "name": "Ubras 小高领打底",
+      "category": "内搭",
+      "color": "白色",
+      "material": "聚酯纤维",
+      "fit": "修身",
+      "store": "Ubras",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "基础"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "夏",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T06:46:35.622Z"
+    },
+    {
+      "id": "492b320a-014a-4db1-8eb9-35edf4297fb2",
+      "name": "胡艺杋小 V 领打底",
+      "category": "内搭",
+      "color": "黑色",
+      "material": "聚酯纤维",
+      "fit": "修身",
+      "store": "胡艺杋",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "修身",
+        "文艺"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "夏",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T07:41:29.900Z"
+    },
+    {
+      "id": "4266caa8-c30b-41cd-a6bc-4cb0496f479d",
+      "name": "胡艺杋小 V 领打底",
+      "category": "内搭",
+      "color": "白色",
+      "material": "聚酯纤维",
+      "fit": "修身",
+      "store": "胡艺杋",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "修身"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "夏",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T07:41:35.811Z"
+    },
+    {
+      "id": "7928628d-d0cf-4dca-b292-7a36769584e4",
+      "name": "UR 蝴蝶结圆领打底",
+      "category": "内搭",
+      "color": "花灰",
+      "material": "",
+      "fit": "大领口",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "文艺",
+        "蝴蝶结"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "夏",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T07:42:40.618Z"
+    },
+    {
+      "id": "bb699201-94bd-42b1-9fab-f6175660cb8d",
+      "name": "UR 小小 V 领打底",
+      "category": "内搭",
+      "color": "白色",
+      "material": "纯棉",
+      "fit": "短版露脐",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "修身"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T07:29:19.891Z"
+    },
+    {
+      "id": "4cbddf58-9056-49ca-bbdf-3b09d7baa8d1",
+      "name": "Aireism 拉链开衫打底",
+      "category": "内搭",
+      "color": "黑色",
+      "material": "聚酯纤维",
+      "fit": "修身",
+      "store": "Aireism",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "基础",
+        "功能"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "夏",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T07:28:53.949Z"
+    },
+    {
+      "id": "7ff07f31-d0e9-435f-bb2a-c0094a50595c",
+      "name": "baleno 荡领打底",
+      "category": "内搭",
+      "color": "卡其",
+      "material": "聚酯纤维",
+      "fit": "修身",
+      "store": "baleno",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "松弛",
+        "美拉德"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "夏",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T07:28:52.843Z"
+    },
+    {
+      "id": "ff820eb2-5337-4209-9417-a80a46e894e0",
+      "name": "高领羊毛打底",
+      "category": "内搭",
+      "color": "红色",
+      "material": "羊毛",
+      "fit": "常规",
+      "store": "未记录",
+      "wearFrequency": "低频",
+      "favorite": 4,
+      "styleTags": [
+        "复古"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T07:42:27.111Z"
+    },
+    {
+      "id": "deb5f791-3001-490b-9d8d-95d6dd0ba7a5",
+      "name": "UR 白衬衫",
+      "category": "衬衫",
+      "color": "白色",
+      "material": "纯棉",
+      "fit": "纯色",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "设计",
+        "长版",
+        "通勤"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T07:47:37.966Z"
+    },
+    {
+      "id": "26e73969-9990-44bf-9d5e-12b66eaf9b38",
+      "name": "镂空黑衬衫",
+      "category": "衬衫",
+      "color": "黑色",
+      "material": "",
+      "fit": "纯色",
+      "store": "未记录",
+      "wearFrequency": "低频",
+      "favorite": 1,
+      "styleTags": [
+        "文艺",
+        "故事感"
+      ],
+      "status": "闲置",
+      "seasons": [
+        "春",
+        "夏",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T07:45:13.470Z"
+    },
+    {
+      "id": "53719b0f-77ea-4481-b0f5-04c15943a295",
+      "name": "南京大学紫衬衫",
+      "category": "衬衫",
+      "color": "紫色",
+      "material": "纯棉",
+      "fit": "纯色",
+      "store": "南京大学",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "校园"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T07:47:41.863Z"
+    },
+    {
+      "id": "748146dc-356c-424d-8cd3-14403208f868",
+      "name": "HM 收腰 V 领衬衫",
+      "category": "衬衫",
+      "color": "浅蓝",
+      "material": "纯棉",
+      "fit": "条纹",
+      "store": "HM",
+      "wearFrequency": "中频",
+      "favorite": 5,
+      "styleTags": [
+        "收腰",
+        "通勤"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T07:46:15.654Z"
+    },
+    {
+      "id": "1391d516-cf4a-49bd-a00c-89dc443f630b",
+      "name": "Champion 卫衣",
+      "category": "卫衣",
+      "color": "卡其",
+      "material": "",
+      "fit": "中长款",
+      "store": "Champion",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "无拉链",
+        "有帽"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T07:50:16.848Z"
+    },
+    {
+      "id": "ef657516-ec64-4ff1-83e9-17b24ab84194",
+      "name": "FILA 运动外套",
+      "category": "卫衣",
+      "color": "黑色",
+      "material": "",
+      "fit": "中长款",
+      "store": "FILA",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "有拉链",
+        "无帽",
+        "运动"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T08:07:09.303Z"
+    },
+    {
+      "id": "caf16f48-be2c-4739-883b-54db6edc3112",
+      "name": "Champion 烟粉卫衣",
+      "category": "卫衣",
+      "color": "烟粉",
+      "material": "",
+      "fit": "短款",
+      "store": "Champion",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "无拉链",
+        "无帽",
+        "运动"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T08:07:15.044Z"
+    },
+    {
+      "id": "40bf826d-d2c8-4054-a2ff-32e0b5eb1934",
+      "name": "仿 UR/HM 微厚卫衣",
+      "category": "卫衣",
+      "color": "深灰",
+      "material": "",
+      "fit": "短款",
+      "store": "UR代购/HM实体店",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "有拉链",
+        "有帽",
+        "休闲"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "夏",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T08:07:22.311Z"
+    },
+    {
+      "id": "b862b557-cf8c-40b8-864d-8c4f813b1d53",
+      "name": "短款薄款优衣库马甲",
+      "category": "马甲",
+      "color": "白色",
+      "material": "羽绒",
+      "fit": "短款",
+      "store": "优衣库",
+      "wearFrequency": "高频",
+      "favorite": 5,
+      "styleTags": [
+        "叠穿"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T08:10:14.000Z"
+    },
+    {
+      "id": "7347142a-07b9-4439-bc1a-9ca0d1c39baa",
+      "name": "V 领针织毛毛马甲",
+      "category": "马甲",
+      "color": "卡其",
+      "material": "针织",
+      "fit": "中款",
+      "store": "淘宝",
+      "wearFrequency": "低频",
+      "favorite": 2,
+      "styleTags": [
+        "复古",
+        "柔软"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T08:11:34.533Z"
+    },
+    {
+      "id": "0efdfe4b-b29d-48e0-943f-4ff8666617fc",
+      "name": "折领牛仔背心",
+      "category": "马甲",
+      "color": "深蓝",
+      "material": "牛仔",
+      "fit": "短款",
+      "store": "UR",
+      "wearFrequency": "低频",
+      "favorite": 3,
+      "styleTags": [
+        "牛仔",
+        "层次"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T08:11:35.956Z"
+    },
+    {
+      "id": "889d9b05-f7e0-4b3e-883f-184232a3724a",
+      "name": "simpleretro编织麻花斜领宽松",
+      "category": "毛衣",
+      "color": "白色",
+      "material": "聚酯纤维",
+      "fit": "斜领/高领套衫",
+      "store": "simpleretro",
+      "wearFrequency": "高频",
+      "favorite": 5,
+      "styleTags": [
+        "文艺",
+        "设计",
+        "温柔",
+        "通勤"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T12:33:33.273Z"
+    },
+    {
+      "id": "5d86994d-6492-4022-8cb9-333bbd461b99",
+      "name": "UR 圆领超短款毛衣",
+      "category": "毛衣",
+      "color": "浅灰",
+      "material": "聚酯纤维",
+      "fit": "内搭超短款套衫",
+      "store": "UR",
+      "wearFrequency": "低频",
+      "favorite": 2,
+      "styleTags": [
+        "短款",
+        "露脐"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T12:16:47.655Z"
+    },
+    {
+      "id": "4136912e-4033-434a-9019-36a67ce25622",
+      "name": "妈妈的羊毛高领长款",
+      "category": "毛衣",
+      "color": "墨绿",
+      "material": "羊毛",
+      "fit": "高领套衫",
+      "store": "妈妈给的",
+      "wearFrequency": "低频",
+      "favorite": 5,
+      "styleTags": [
+        "复古",
+        "约会",
+        "重要场合"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T12:32:31.976Z"
+    },
+    {
+      "id": "f4ea0bee-a2a6-46ee-9f2e-c5f7f632f60e",
+      "name": "卡农修身绞花短款",
+      "category": "毛衣",
+      "color": "藏蓝",
+      "material": "聚酯纤维",
+      "fit": "圆领短款纽扣开衫",
+      "store": "你好卡农",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "通勤",
+        "日常"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T12:32:17.521Z"
+    },
+    {
+      "id": "013336c5-7933-47eb-9850-0532742b82b0",
+      "name": "哥弟羊毛短款",
+      "category": "毛衣",
+      "color": "卡其",
+      "material": "羊毛",
+      "fit": "V 领纽扣开衫",
+      "store": "哥弟",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "老钱",
+        "叠穿"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T12:32:56.432Z"
+    },
+    {
+      "id": "3c45e34e-b2ff-4b4d-8d60-571d77b7d064",
+      "name": "UR 亮片中长款毛衣",
+      "category": "毛衣",
+      "color": "黑色",
+      "material": "聚酯纤维",
+      "fit": "V 领纽扣开衫",
+      "store": "UR",
+      "wearFrequency": "高频",
+      "favorite": 5,
+      "styleTags": [
+        "亮片",
+        "精致"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T12:16:43.359Z"
+    },
+    {
+      "id": "84054749-1fd9-4b16-a273-5800c23ab2ce",
+      "name": "ONLY 基础款大衣",
+      "category": "大衣",
+      "color": "浅灰",
+      "material": "纯羊毛",
+      "fit": "基础款",
+      "store": "ONLY",
+      "wearFrequency": "高频",
+      "favorite": 5,
+      "styleTags": [
+        "老钱",
+        "通勤"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T12:35:31.887Z"
+    },
+    {
+      "id": "5c900adc-d03f-4580-9a82-c2ce46a23f86",
+      "name": "唯品会过年大衣",
+      "category": "大衣",
+      "color": "红色",
+      "material": "纯羊毛",
+      "fit": "围巾款",
+      "store": "唯品会",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "节日",
+        "复古"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋",
+        "冬"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T12:35:15.148Z"
+    },
+    {
+      "id": "25c07895-d9be-4223-8bfc-334cc6157b39",
+      "name": "UR 麂皮拼接中长大衣",
+      "category": "大衣",
+      "color": "咖色",
+      "material": "聚酯纤维",
+      "fit": "中长款",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "美拉德",
+        "故事感"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T12:35:18.405Z"
+    },
+    {
+      "id": "1332bb31-896f-41d3-a0b5-9a28ddf45a3c",
+      "name": "ONLY 立领收腰羽绒 76g",
+      "category": "羽绒",
+      "color": "浅灰",
+      "material": "",
+      "fit": "短款",
+      "store": "ONLY",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "收腰",
+        "利落"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "762ad561-3f21-4ec9-8818-8a2bb71aba3b",
+      "name": "UR 长廓棉服 155g",
+      "category": "羽绒",
+      "color": "浅绿",
+      "material": "",
+      "fit": "中长款",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "廓形"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "53ae0993-7edc-44b9-858e-f23f8a82dc30",
+      "name": "UR 皮羽绒服 192g",
+      "category": "羽绒",
+      "color": "白色",
+      "material": "",
+      "fit": "中长款",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "皮感"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "a4f1c382-d6e8-4740-af9b-1fa65cbb04ad",
+      "name": "毛领羽绒服 143g",
+      "category": "羽绒",
+      "color": "浅蓝",
+      "material": "",
+      "fit": "中长款",
+      "store": "未记录",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "温柔"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "f8e99e65-303c-494a-81a1-ab15c27e9c16",
+      "name": "玖姿修身羽绒服",
+      "category": "羽绒",
+      "color": "黑色",
+      "material": "",
+      "fit": "长款",
+      "store": "玖姿",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "修身",
+        "正式"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "82accfe6-0be2-4048-9bd1-dde5db507ac6",
+      "name": "UR 短款牛仔外套",
+      "category": "外套",
+      "color": "米白",
+      "material": "",
+      "fit": "牛仔",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "牛仔",
+        "利落"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "a3356cac-d64f-4777-aa2c-08ed758a6bc7",
+      "name": "Mito Cedar 棉布短外套",
+      "category": "外套",
+      "color": "沙色",
+      "material": "",
+      "fit": "棉布",
+      "store": "Mito Cedar",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "故事感",
+        "棉布"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "c86e7eea-968c-45c9-b55b-05f1a7b66e4d",
+      "name": "UR 小香风外套",
+      "category": "外套",
+      "color": "白色",
+      "material": "",
+      "fit": "小香风",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "小香风",
+        "通勤"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "0139ec88-1cc9-460c-92df-1093743d9f22",
+      "name": "UR 大毛外套",
+      "category": "外套",
+      "color": "黑色",
+      "material": "",
+      "fit": "毛毛",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "戏剧感"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "46073f94-1b2d-4504-9c0a-f3e4c0ca59d9",
+      "name": "ONLY 立领花苞袖夹克",
+      "category": "外套",
+      "color": "沙色",
+      "material": "",
+      "fit": "夹克",
+      "store": "ONLY",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "花苞袖"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "bea065e7-abc8-4a08-9936-24cc16254820",
+      "name": "对白 立领扣收腰带外套",
+      "category": "外套",
+      "color": "橄榄绿",
+      "material": "",
+      "fit": "夹克",
+      "store": "对白",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "收腰",
+        "通勤"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "2f5a8fb0-9396-4502-b2c2-42a5c3a4a41d",
+      "name": "UR 麂皮夹克",
+      "category": "外套",
+      "color": "咖色",
+      "material": "麂皮",
+      "fit": "皮感",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "美拉德",
+        "老钱"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "784cda43-ef02-40c1-8416-ce742a1fd6c6",
+      "name": "娅可皮衣",
+      "category": "外套",
+      "color": "黑色",
+      "material": "pu皮",
+      "fit": "廓形",
+      "store": "娅可",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "酷感"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T12:00:59.027Z"
+    },
+    {
+      "id": "14117beb-99d3-4ae1-bb8f-dbdf231956d5",
+      "name": "西装外套",
+      "category": "外套",
+      "color": "卡其",
+      "material": "",
+      "fit": "西装",
+      "store": "未记录",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "正式",
+        "通勤"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "083b47c0-5ede-43e0-8179-cee27d3defc3",
+      "name": "SimpleRetro 灯芯绒收腰外套",
+      "category": "外套",
+      "color": "橄榄绿",
+      "material": "",
+      "fit": "灯芯绒",
+      "store": "SimpleRetro",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "复古",
+        "故事感"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "50671c53-34a2-4677-8523-2faf784861e1",
+      "name": "恒源祥中款风衣",
+      "category": "风衣",
+      "color": "卡其",
+      "material": "",
+      "fit": "恒源祥",
+      "store": "恒源祥",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "通勤"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "5e4994d1-d461-4fde-8059-a89d90c44c20",
+      "name": "COACH 滑片版型风衣",
+      "category": "风衣",
+      "color": "白色",
+      "material": "",
+      "fit": "COACH",
+      "store": "COACH",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "老钱"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "2b87fb7c-841d-4164-9ced-8d48c9124770",
+      "name": "对白 长款 118 风衣",
+      "category": "风衣",
+      "color": "咖色",
+      "material": "",
+      "fit": "长款",
+      "store": "对白",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "故事感",
+        "长线条"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "4d9e89ad-e4a3-4b2e-ba8b-edea952de502",
+      "name": "凯乐石 m8 冲锋衣",
+      "category": "冲锋衣",
+      "color": "紫色",
+      "material": "",
+      "fit": "带帽",
+      "store": "凯乐石",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "功能型"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "c3511926-ff41-41b6-9272-a3e69a168e11",
+      "name": "张百亿高腰微喇牛仔裤",
+      "category": "裤子",
+      "color": "浅蓝",
+      "material": "",
+      "fit": "微喇裤",
+      "store": "张百亿",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "高腰",
+        "牛仔"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "f8e52f5c-0a6f-46b5-a145-f665819e0a88",
+      "name": "行行好高腰微喇牛仔裤",
+      "category": "裤子",
+      "color": "深蓝",
+      "material": "",
+      "fit": "微喇裤",
+      "store": "行行好",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "高腰",
+        "牛仔"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "6509bc1e-a0b5-4ce8-a69b-422a809c760d",
+      "name": "抖音高腰西装裤",
+      "category": "裤子",
+      "color": "黑色",
+      "material": "",
+      "fit": "微喇裤",
+      "store": "抖音",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "通勤"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "2f398a1d-6cf8-4d30-aade-29551a57e5c9",
+      "name": "ONLY 高腰阔腿牛仔裤",
+      "category": "裤子",
+      "color": "浅蓝",
+      "material": "",
+      "fit": "阔腿裤",
+      "store": "ONLY",
+      "wearFrequency": "高频",
+      "favorite": 4,
+      "styleTags": [
+        "高腰"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "8dafc1ac-2542-406c-b1b1-6ba7c02eafd6",
+      "name": "UR 高腰阔腿牛仔裤",
+      "category": "裤子",
+      "color": "深蓝",
+      "material": "",
+      "fit": "阔腿裤",
+      "store": "UR",
+      "wearFrequency": "高频",
+      "favorite": 4,
+      "styleTags": [
+        "高腰"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "94e955e0-adee-4c95-a913-55f47b234bc5",
+      "name": "ONLY 高腰阔腿西装裤",
+      "category": "裤子",
+      "color": "卡其",
+      "material": "",
+      "fit": "阔腿裤",
+      "store": "ONLY",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "通勤",
+        "老钱"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "45637ea6-af8d-4e61-935f-d64a1b0e1bd2",
+      "name": "UR 工装裤",
+      "category": "裤子",
+      "color": "卡其",
+      "material": "",
+      "fit": "工装裤",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "休闲",
+        "户外"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "56623169-e96f-482a-8808-253632865f56",
+      "name": "ONLY 工装裤",
+      "category": "裤子",
+      "color": "黑色",
+      "material": "",
+      "fit": "工装裤",
+      "store": "ONLY",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "功能"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "c0ebdfd7-a477-43aa-b074-b946c3015251",
+      "name": "抖音直筒牛仔裤",
+      "category": "裤子",
+      "color": "白色",
+      "material": "",
+      "fit": "直筒裤",
+      "store": "抖音",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "基础"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "c939c91a-857a-4fb6-b8ca-5d56527bc5ba",
+      "name": "张百亿中腰小脚牛仔裤",
+      "category": "裤子",
+      "color": "深蓝",
+      "material": "",
+      "fit": "小脚裤",
+      "store": "张百亿",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "基础"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "b76c7096-a84d-49ff-8f85-05d3a2e50ea2",
+      "name": "AR 前口袋短牛仔裤",
+      "category": "裤子",
+      "color": "深咖",
+      "material": "",
+      "fit": "短裤",
+      "store": "AR 前口袋",
+      "wearFrequency": "低频",
+      "favorite": 4,
+      "styleTags": [],
+      "status": "在穿",
+      "seasons": [
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "e3c18c81-aa63-4b25-8d1b-050957b52a23",
+      "name": "UR 蝴蝶结牛仔超短裙",
+      "category": "半裙",
+      "color": "蓝色",
+      "material": "",
+      "fit": "超短裙",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "甜感",
+        "牛仔"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "a5def1c6-c65f-4a38-92aa-99a8c4f75797",
+      "name": "AR 拼接芭蕾半裙",
+      "category": "半裙",
+      "color": "深蓝",
+      "material": "",
+      "fit": "超短裙",
+      "store": "AR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "芭蕾",
+        "故事感"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "a3f0dd7e-c9fb-47fa-ab90-13f75a035a6c",
+      "name": "UR 牛仔半裙",
+      "category": "半裙",
+      "color": "银白",
+      "material": "",
+      "fit": "短裙",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [],
+      "status": "在穿",
+      "seasons": [
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "b77901d8-1fe6-4dfe-b177-eec911b01c57",
+      "name": "锐利美人薄布半裙",
+      "category": "半裙",
+      "color": "深灰",
+      "material": "",
+      "fit": "短裙",
+      "store": "锐利美人",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [],
+      "status": "在穿",
+      "seasons": [
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "82dcb4d9-e9b6-43d0-b704-03ed96f92510",
+      "name": "几里花苞长半裙",
+      "category": "半裙",
+      "color": "白色",
+      "material": "",
+      "fit": "中长裙",
+      "store": "几里",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "花苞",
+        "温柔"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "25928ad2-b5f8-4857-a3ed-9c1e29aaf1ca",
+      "name": "UR 黑色丝绒长半裙",
+      "category": "半裙",
+      "color": "黑色",
+      "material": "丝绒",
+      "fit": "中长裙",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "复古",
+        "华丽"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "0cb1cd28-55eb-4654-ac61-60d0384d0f36",
+      "name": "光涧面料长半裙",
+      "category": "半裙",
+      "color": "浅蓝",
+      "material": "",
+      "fit": "中长裙",
+      "store": "未记录",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "9dfdaf08-544d-46d7-9893-8c26b0ad07ec",
+      "name": "有油米白长半裙",
+      "category": "半裙",
+      "color": "米白",
+      "material": "",
+      "fit": "长裙",
+      "store": "有油",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "温柔",
+        "长线条"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "22bd12fe-3c45-4b97-ba53-d68d75eeb792",
+      "name": "ONLY 招牌风衣连衣裙",
+      "category": "连衣裙",
+      "color": "白色",
+      "material": "",
+      "fit": "长款短袖",
+      "store": "ONLY",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "风衣裙",
+        "老钱"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "夏",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "8a8978b4-c784-417e-8b8e-681cdb8d7082",
+      "name": "慕恩慕夏醋酸吊带裙",
+      "category": "连衣裙",
+      "color": "浅绿",
+      "material": "醋酸",
+      "fit": "长款吊带",
+      "store": "慕恩慕夏",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "醋酸",
+        "温柔"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "c8e23da1-0e62-46fe-87ef-86507f47d033",
+      "name": "DollyTang 吊带裙",
+      "category": "连衣裙",
+      "color": "深蓝",
+      "material": "",
+      "fit": "长款吊带",
+      "store": "DollyTang",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "故事感"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "952caf00-2f12-4747-85ef-a9671d07777d",
+      "name": "Zara 领领吊带裙",
+      "category": "连衣裙",
+      "color": "烟粉",
+      "material": "",
+      "fit": "长款吊带",
+      "store": "Zara",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [],
+      "status": "在穿",
+      "seasons": [
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "643d07a2-01b6-479a-86a5-c18983b5597b",
+      "name": "Goodjob 公主裙",
+      "category": "连衣裙",
+      "color": "白色",
+      "material": "",
+      "fit": "长款长袖",
+      "store": "Goodjob",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "公主",
+        "复古"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "68904b03-f644-4116-9b06-5da948fa6c7e",
+      "name": "UR 露背褶皱吊带裙",
+      "category": "连衣裙",
+      "color": "卡其",
+      "material": "",
+      "fit": "短款吊带",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "露背",
+        "轻熟"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "acea96e6-bbe8-470c-85d8-0f126229b1d1",
+      "name": "UR 延装系带无袖连衣裙",
+      "category": "连衣裙",
+      "color": "浅灰",
+      "material": "",
+      "fit": "短款半袖/无袖",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "系带"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "19e4372b-c361-42c4-a2e2-c5d65bb77e07",
+      "name": "UR 色海南花苞长袖上衣",
+      "category": "上衣非打底",
+      "color": "黄色",
+      "material": "",
+      "fit": "套头",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "花苞",
+        "故事感"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "485f418f-0274-445c-a4aa-985a7645a23d",
+      "name": "UR 白色欧根纱纽扣长袖",
+      "category": "上衣非打底",
+      "color": "白色",
+      "material": "欧根纱",
+      "fit": "套头",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "欧根纱",
+        "轻盈"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "cad924aa-9926-4b49-b57c-1601a5abbba6",
+      "name": "UR 灰黑连帽拉链长袖",
+      "category": "上衣非打底",
+      "color": "深灰",
+      "material": "",
+      "fit": "套头",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "休闲"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "春",
+        "秋"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "4fb9029c-0dae-4235-82e1-7d1f9edfec41",
+      "name": "UR 白色蝴蝶吊带",
+      "category": "夏季吊带或抹胸",
+      "color": "白色",
+      "material": "",
+      "fit": "背心",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "蝴蝶结",
+        "清爽"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "8146753e-8e50-4f71-9504-8ac3389ba710",
+      "name": "黑色蕾丝夏季背心",
+      "category": "夏季背心",
+      "color": "黑色",
+      "material": "",
+      "fit": "背心",
+      "store": "未记录",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "蕾丝",
+        "轻熟"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "579443a7-d6f8-4855-8701-bb285b76b564",
+      "name": "UR 丝绸米白背心",
+      "category": "夏季背心",
+      "color": "米白",
+      "material": "丝绸",
+      "fit": "背心",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "丝绸",
+        "温柔"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "2942ef37-af29-4c1e-8e45-279b9180a4bb",
+      "name": "hm 正肩半袖",
+      "category": "夏季半袖",
+      "color": "烟粉",
+      "material": "",
+      "fit": "正肩",
+      "store": "hm",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [],
+      "status": "在穿",
+      "seasons": [
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "08e4c6ca-397f-42f6-987c-aee9f959ea3a",
+      "name": "fila 正肩半袖",
+      "category": "夏季半袖",
+      "color": "黑色",
+      "material": "",
+      "fit": "正肩",
+      "store": "fila",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [],
+      "status": "在穿",
+      "seasons": [
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "393de124-be1a-4019-9ee2-5bb3a5919f7d",
+      "name": "UR 大方领蝴蝶结半袖",
+      "category": "夏季半袖",
+      "color": "白色",
+      "material": "",
+      "fit": "大方领",
+      "store": "UR",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "蝴蝶结",
+        "法式"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "1fb1f9b7-a687-40eb-80a7-1a656b65f0ac",
+      "name": "BulletNini 撞色中袖",
+      "category": "夏季半袖",
+      "color": "深灰",
+      "material": "",
+      "fit": "中袖",
+      "store": "BulletNini",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [],
+      "status": "在穿",
+      "seasons": [
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "d2737ddf-7e65-4696-83f7-c581f8f3e296",
+      "name": "桑蚕丝短款 ONLY 披肩",
+      "category": "披肩",
+      "color": "米白",
+      "material": "桑蚕丝",
+      "fit": "披肩",
+      "store": "ONLY",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [
+        "温柔"
+      ],
+      "status": "在穿",
+      "seasons": [
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "59c99dd6-382f-4599-aea7-72abac812407",
+      "name": "纱布长款长袖披肩",
+      "category": "披肩",
+      "color": "卡其",
+      "material": "纱布",
+      "fit": "披肩",
+      "store": "未记录",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [],
+      "status": "在穿",
+      "seasons": [
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    },
+    {
+      "id": "b2472ffb-bb8e-4b7d-b99e-1cdf328e2a6d",
+      "name": "纱布长款短袖披肩",
+      "category": "披肩",
+      "color": "米白",
+      "material": "纱布",
+      "fit": "披肩",
+      "store": "未记录",
+      "wearFrequency": "中频",
+      "favorite": 4,
+      "styleTags": [],
+      "status": "在穿",
+      "seasons": [
+        "夏"
+      ],
+      "createdAt": "2026-04-23T03:46:53.352Z",
+      "updatedAt": "2026-04-23T03:46:53.352Z"
+    }
+  ]
+}
