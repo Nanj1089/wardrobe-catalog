@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import { MeasurementCard } from "@/components/MeasurementCard";
 import { StyleProfileCard } from "@/components/StyleProfileCard";
-import { colorFromText } from "@/data/defaultData";
+import { colorFromText } from "../../data/defaultData";
 import { resolveGroupForCategory } from "@/utils/wardrobe";
 import type { ClosetGroupKey, MeasurementData, WardrobeItem, WardrobeProfile } from "@/types";
 

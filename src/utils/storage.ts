@@ -7,7 +7,7 @@ import {
   migrateAnyData,
   migratePreviousReactData,
   normalizeAppData
-} from "@/data/defaultData";
+} from "../data/defaultData";
 import { isSupabaseConfigured, supabase } from "@/lib/supabase";
 import type { AppData, ClosetGroupKey, PreviousReactAppData, SharedState } from "@/types";
 import { normalizeClosetGroupKey } from "@/utils/wardrobe";

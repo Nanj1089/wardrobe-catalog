@@ -5,7 +5,7 @@ import {
   normalizeAppData,
   normalizeItem,
   uniqueStrings
-} from "@/data/defaultData";
+} from "../data/defaultData";
 import type {
   AppData,
   CategoryStyle,

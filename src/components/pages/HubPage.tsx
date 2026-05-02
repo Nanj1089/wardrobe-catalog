@@ -213,11 +213,13 @@ export function HubPage({ data, shared, categoryGroups, onSaveCategories, onSave
                     value={category.group}
                     onChange={(event) => updateDraftGroup(category.id, event.target.value as ClosetGroupKey)}
                   >
-                    {GROUPS.filter((group) => group.key !== "all").map((group) => (
-                      <option key={group.key} value={group.key}>
-                        {group.label}
-                      </option>
-                    ))}
+                    {GROUPS.filter((group: (typeof GROUPS)[number]) => group.key !== "all").map(
+                      (group: (typeof GROUPS)[number]) => (
+                        <option key={group.key} value={group.key}>
+                          {group.label}
+                        </option>
+                      )
+                    )}
                   </select>
                   <button className="icon-btn" type="button" aria-label="删除分类" onClick={() => removeDraft(category.id)}>
                     ×

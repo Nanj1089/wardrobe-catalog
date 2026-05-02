@@ -489,7 +489,7 @@ function ItemCard({
             <div className="item-edit-block">
               <div className="item-edit-label">状态</div>
               <div className="status-row">
-                {STATUS_OPTIONS.map((status) => (
+                {STATUS_OPTIONS.map((status: WardrobeItem["status"]) => (
                   <button
                     key={status}
                     className={clsx("status-chip", item.status === status && "active")}
