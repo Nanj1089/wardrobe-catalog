@@ -59,7 +59,7 @@ export default function App() {
   const [shared, setShared] = useState<SharedState>(EMPTY_SHARED_STATE);
   const [authReady, setAuthReady] = useState(!isSupabaseConfigured);
   const [cloudUserId, setCloudUserId] = useState<string | null>(null);
-  const [activeTab, setActiveTab] = useState<AppTab>(() => getTabFromHash(window.location.hash));
+  const [activeTab, setActiveTab] = useState<AppTab>(() => getTabFromUrl(window.location.href));
   const [saveState, setSaveState] = useState<SaveState>("saved");
   const [filters, setFilters] = useState<ClosetFilters>(EMPTY_FILTERS);
   const [modalDraft, setModalDraft] = useState<WardrobeItem | null>(null);
@@ -82,11 +82,32 @@ export default function App() {
       };
     }
 
-    getSupabaseUser().then((user) => {
-      if (!active) return;
-      setCloudUserId(user?.id ?? null);
-      setAuthReady(true);
-    });
+    (async () => {
+      try {
+        const url = new URL(window.location.href);
+        const authCode = url.searchParams.get("code");
+
+        if (authCode) {
+          const { error } = await supabase.auth.exchangeCodeForSession(authCode);
+          if (error) {
+            console.error(error);
+          }
+        }
+
+        const user = await getSupabaseUser();
+        if (!active) return;
+        setCloudUserId(user?.id ?? null);
+        setAuthReady(true);
+
+        if (user) {
+          clearAuthPayloadFromUrl();
+        }
+      } catch (error) {
+        console.error(error);
+        if (!active) return;
+        setAuthReady(true);
+      }
+    })();
 
     const {
       data: { subscription }
@@ -94,6 +115,9 @@ export default function App() {
       if (!active) return;
       setCloudUserId(session?.user?.id ?? null);
       setAuthReady(true);
+      if (session?.user) {
+        clearAuthPayloadFromUrl();
+      }
     });
 
     return () => {
@@ -136,19 +160,20 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    function handleHashChange() {
-      const nextTab = getTabFromHash(window.location.hash);
+    function handleLocationChange() {
+      const nextTab = getTabFromUrl(window.location.href);
       setActiveTab((current) => (current === nextTab ? current : nextTab));
     }
 
-    window.addEventListener("hashchange", handleHashChange);
-    return () => window.removeEventListener("hashchange", handleHashChange);
+    window.addEventListener("popstate", handleLocationChange);
+    return () => window.removeEventListener("popstate", handleLocationChange);
   }, []);
 
   useEffect(() => {
-    const nextHash = `#${activeTab}`;
-    if (window.location.hash !== nextHash) {
-      window.history.replaceState(null, "", nextHash);
+    const nextUrl = buildTabUrl(activeTab);
+    const currentUrl = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+    if (currentUrl !== nextUrl) {
+      window.history.replaceState(null, "", nextUrl);
     }
   }, [activeTab]);
 
@@ -554,8 +579,35 @@ function formatDateLabel(value: string) {
   return `${year}.${month}.${day}`;
 }
 
-function getTabFromHash(hash: string): AppTab {
-  const normalized = hash.replace(/^#/, "");
+function getTabFromUrl(urlValue: string): AppTab {
+  const url = new URL(urlValue, window.location.origin);
+  const normalized = url.searchParams.get("tab");
   if (normalized === "closet" || normalized === "hub") return normalized;
   return "home";
+}
+
+function buildTabUrl(tab: AppTab) {
+  const url = new URL(window.location.href);
+  url.searchParams.set("tab", tab);
+  return `${url.pathname}${url.search}${url.hash}`;
+}
+
+function clearAuthPayloadFromUrl() {
+  const url = new URL(window.location.href);
+  let dirty = false;
+
+  ["code", "type", "error", "error_code", "error_description"].forEach((key) => {
+    if (!url.searchParams.has(key)) return;
+    url.searchParams.delete(key);
+    dirty = true;
+  });
+
+  if (url.hash.includes("access_token") || url.hash.includes("refresh_token")) {
+    url.hash = "";
+    dirty = true;
+  }
+
+  if (dirty) {
+    window.history.replaceState(null, "", `${url.pathname}${url.search}${url.hash}`);
+  }
 }
