@@ -13,7 +13,7 @@ import {
   createEmptyItem,
   normalizeAppData,
   uniqueStrings
-} from "@/data/defaultData";
+} from "./data/defaultData";
 import {
   exportData,
   importData,

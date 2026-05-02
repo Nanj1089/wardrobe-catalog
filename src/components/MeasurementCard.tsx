@@ -1,5 +1,5 @@
 import measurementReference from "@/assets/measurement-reference.png";
-import { MEASUREMENT_MAIN_FIELDS, MEASUREMENT_SECONDARY_FIELDS } from "@/data/defaultData";
+import { MEASUREMENT_MAIN_FIELDS, MEASUREMENT_SECONDARY_FIELDS } from "../data/defaultData";
 import type { MeasurementData } from "@/types";
 
 interface MeasurementCardProps {
@@ -30,7 +30,7 @@ export function MeasurementCard({ measurements, updatedAtLabel, onChange, onSave
 
         <div className="body-measure-list-wrap">
           <div className="body-measure-list">
-            {MEASUREMENT_MAIN_FIELDS.map((field) => (
+            {MEASUREMENT_MAIN_FIELDS.map((field: (typeof MEASUREMENT_MAIN_FIELDS)[number]) => (
               <label key={field.key} className="body-measure-row">
                 <span className="body-measure-icon">{field.icon}</span>
                 <span className="body-measure-label">{field.label}</span>
@@ -57,7 +57,7 @@ export function MeasurementCard({ measurements, updatedAtLabel, onChange, onSave
       </div>
 
       <div className="body-measure-secondary">
-        {MEASUREMENT_SECONDARY_FIELDS.map((field) => (
+        {MEASUREMENT_SECONDARY_FIELDS.map((field: (typeof MEASUREMENT_SECONDARY_FIELDS)[number]) => (
           <label key={field.key} className="field compact-field">
             <span>{field.label}</span>
             <input

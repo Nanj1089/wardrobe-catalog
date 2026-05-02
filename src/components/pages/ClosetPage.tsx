@@ -7,7 +7,7 @@ import {
   SORT_OPTIONS,
   STATUS_OPTIONS,
   WEAR_OPTIONS
-} from "@/data/defaultData";
+} from "../../data/defaultData";
 import type { AppData, ClosetFilters, ClosetGroupKey, ItemStatus, WardrobeItem } from "@/types";
 import {
   buildReminderRows,
@@ -101,7 +101,7 @@ export function ClosetPage({
         <aside className="closet-sidebar card">
           <div className="sidebar-heading">分类导航</div>
           <div className="sidebar-groups">
-            {GROUPS.map((group) => {
+            {GROUPS.map((group: (typeof GROUPS)[number]) => {
               const count =
                 group.key === "all"
                   ? sidebarItems.length
@@ -186,7 +186,7 @@ export function ClosetPage({
                 <span>颜色</span>
                 <select value={filters.color} onChange={(event) => onFilterChange({ color: event.target.value })}>
                   <option value="">全部颜色</option>
-                  {colorOptions.map((option) => (
+                  {colorOptions.map((option: string) => (
                     <option key={option} value={option}>
                       {option}
                     </option>
@@ -197,7 +197,7 @@ export function ClosetPage({
                 <span>材质</span>
                 <select value={filters.material} onChange={(event) => onFilterChange({ material: event.target.value })}>
                   <option value="">全部材质</option>
-                  {materialOptions.map((option) => (
+                  {materialOptions.map((option: string) => (
                     <option key={option} value={option}>
                       {option}
                     </option>
@@ -208,7 +208,7 @@ export function ClosetPage({
                 <span>版型</span>
                 <select value={filters.fit} onChange={(event) => onFilterChange({ fit: event.target.value })}>
                   <option value="">全部版型</option>
-                  {fitOptions.map((option) => (
+                  {fitOptions.map((option: string) => (
                     <option key={option} value={option}>
                       {option}
                     </option>
@@ -222,7 +222,7 @@ export function ClosetPage({
                   onChange={(event) => onFilterChange({ status: event.target.value as ItemStatus | "" })}
                 >
                   <option value="">全部状态</option>
-                  {STATUS_OPTIONS.map((option) => (
+                  {STATUS_OPTIONS.map((option: ItemStatus) => (
                     <option key={option} value={option}>
                       {option}
                     </option>
@@ -235,7 +235,7 @@ export function ClosetPage({
                   value={filters.sort}
                   onChange={(event) => onFilterChange({ sort: event.target.value as ClosetFilters["sort"] })}
                 >
-                  {SORT_OPTIONS.map((option) => (
+                  {SORT_OPTIONS.map((option: (typeof SORT_OPTIONS)[number]) => (
                     <option key={option.value} value={option.value}>
                       {option.label}
                     </option>
@@ -439,7 +439,7 @@ function ItemCard({
             <div className="item-edit-block">
               <div className="item-edit-label">季节</div>
               <div className="season-row">
-                {SEASON_OPTIONS.map((season) => (
+                {SEASON_OPTIONS.map((season: (typeof SEASON_OPTIONS)[number]) => (
                   <button
                     key={season}
                     className={clsx("season-dot", item.seasons.includes(season) && "active")}
@@ -462,7 +462,7 @@ function ItemCard({
                 }
               >
                 <option value="">未设置</option>
-                {WEAR_OPTIONS.map((option) => (
+                {WEAR_OPTIONS.map((option: (typeof WEAR_OPTIONS)[number]) => (
                   <option key={option} value={option}>
                     {option}
                   </option>
@@ -478,7 +478,7 @@ function ItemCard({
                 onChange={(event) => onUpdateField("favorite", Number(event.target.value), "单品信息已更新")}
               >
                 <option value="0">未设置</option>
-                {FAVORITE_OPTIONS.map((option) => (
+                {FAVORITE_OPTIONS.map((option: (typeof FAVORITE_OPTIONS)[number]) => (
                   <option key={option.value} value={option.value}>
                     {option.label}
                   </option>
