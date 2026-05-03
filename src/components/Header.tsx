@@ -5,11 +5,13 @@ interface HeaderProps {
   activeTab: AppTab;
   saveState: SaveState;
   sharedEnabled: boolean;
+  canConnectCloud?: boolean;
   onTabChange: (tab: AppTab) => void;
   onImport: () => void;
   onCopyShareUrl: () => void;
   onCopyShareCommand: () => void;
   onExport: () => void;
+  onOpenAuth?: () => void;
 }
 
 const tabs: Array<{ key: AppTab; label: string }> = [
@@ -22,14 +24,22 @@ export function Header({
   activeTab,
   saveState,
   sharedEnabled,
+  canConnectCloud = false,
   onTabChange,
   onImport,
   onCopyShareUrl,
   onCopyShareCommand,
-  onExport
+  onExport,
+  onOpenAuth
 }: HeaderProps) {
   const saveLabel =
-    saveState === "saving" ? "自动保存中" : saveState === "error" ? "保存异常" : sharedEnabled ? "共享已连接" : "自动保存已开启";
+    saveState === "saving"
+      ? "自动保存中"
+      : saveState === "error"
+        ? "保存异常"
+        : sharedEnabled
+          ? "云端已连接"
+          : "本地模式已开启";
 
   const actions = [
     { label: "导入", title: "导入数据", onClick: onImport, glyph: <ImportGlyph /> },
@@ -76,6 +86,13 @@ export function Header({
             </button>
           ))}
         </div>
+
+        {canConnectCloud && onOpenAuth ? (
+          <button className="ghost-btn cloud-connect-btn" type="button" onClick={onOpenAuth}>
+            连接云端
+          </button>
+        ) : null}
+
         <span className="save-indicator" data-state={saveState}>
           <span className="status-dot" />
           {saveLabel}

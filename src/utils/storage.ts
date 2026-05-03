@@ -144,7 +144,7 @@ export function saveCategoryGroups(groups: Partial<Record<string, ClosetGroupKey
   localStorage.setItem(CATEGORY_GROUPS_KEY, JSON.stringify(normalizedGroups));
 }
 
-function buildSharedState(userId?: string): SharedState {
+export function buildSharedState(userId?: string): SharedState {
   if (!userId || !isSupabaseConfigured) {
     return {
       enabled: false,

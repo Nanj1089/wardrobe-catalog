@@ -15,6 +15,7 @@ import {
   uniqueStrings
 } from "./data/defaultData";
 import {
+  buildSharedState,
   exportData,
   importData,
   loadCategoryGroups,
@@ -59,6 +60,7 @@ export default function App() {
   const [shared, setShared] = useState<SharedState>(EMPTY_SHARED_STATE);
   const [authReady, setAuthReady] = useState(!isSupabaseConfigured);
   const [cloudUserId, setCloudUserId] = useState<string | null>(null);
+  const [showAuthPanel, setShowAuthPanel] = useState(false);
   const [activeTab, setActiveTab] = useState<AppTab>(() => getTabFromUrl(window.location.href));
   const [saveState, setSaveState] = useState<SaveState>("saved");
   const [filters, setFilters] = useState<ClosetFilters>(EMPTY_FILTERS);
@@ -100,6 +102,7 @@ export default function App() {
         setAuthReady(true);
 
         if (user) {
+          setShowAuthPanel(false);
           clearAuthPayloadFromUrl();
         }
       } catch (error) {
@@ -116,6 +119,7 @@ export default function App() {
       setCloudUserId(session?.user?.id ?? null);
       setAuthReady(true);
       if (session?.user) {
+        setShowAuthPanel(false);
         clearAuthPayloadFromUrl();
       }
     });
@@ -130,13 +134,7 @@ export default function App() {
     let cancelled = false;
 
     if (!authReady) return;
-    if (isSupabaseConfigured && !cloudUserId) {
-      initializedRef.current = false;
-      setData(null);
-      setProfileDraft(null);
-      setShared(EMPTY_SHARED_STATE);
-      return;
-    }
+    if (initializedRef.current) return;
 
     loadInitialData(cloudUserId ?? undefined).then(({ data: initialData, shared: initialShared }) => {
       if (cancelled) return;
@@ -150,6 +148,11 @@ export default function App() {
     return () => {
       cancelled = true;
     };
+  }, [authReady, cloudUserId]);
+
+  useEffect(() => {
+    if (!authReady) return;
+    setShared(buildSharedState(cloudUserId ?? undefined));
   }, [authReady, cloudUserId]);
 
   useEffect(() => {
@@ -238,12 +241,52 @@ export default function App() {
     }
   }
 
+  async function handleSignInWithPassword(email: string, password: string) {
+    if (!supabase) {
+      throw new Error("Supabase 尚未配置完成。");
+    }
+
+    const { error } = await supabase.auth.signInWithPassword({
+      email,
+      password
+    });
+
+    if (error) {
+      throw new Error(error.message || "密码登录失败。");
+    }
+  }
+
+  async function handleSignUpWithPassword(email: string, password: string) {
+    if (!supabase) {
+      throw new Error("Supabase 尚未配置完成。");
+    }
+
+    const { error } = await supabase.auth.signUp({
+      email,
+      password,
+      options: {
+        emailRedirectTo: getAuthRedirectUrl()
+      }
+    });
+
+    if (error) {
+      throw new Error(error.message || "注册失败。");
+    }
+  }
+
   if (!authReady) {
     return <div className="loading-shell">正在连接衣橱云端…</div>;
   }
 
-  if (isSupabaseConfigured && !cloudUserId) {
-    return <AuthPanel onSendMagicLink={handleSendMagicLink} />;
+  if (showAuthPanel) {
+    return (
+      <AuthPanel
+        onSendMagicLink={handleSendMagicLink}
+        onSignInWithPassword={handleSignInWithPassword}
+        onSignUpWithPassword={handleSignUpWithPassword}
+        onContinueLocal={() => setShowAuthPanel(false)}
+      />
+    );
   }
 
   if (!data || !profileDraft) {
@@ -496,11 +539,13 @@ export default function App() {
           activeTab={activeTab}
           saveState={saveState}
           sharedEnabled={shared.enabled}
+          canConnectCloud={isSupabaseConfigured && !shared.enabled}
           onTabChange={setActiveTab}
           onImport={() => importInputRef.current?.click()}
           onCopyShareUrl={handleCopyShareUrl}
           onCopyShareCommand={handleCopyCommand}
           onExport={() => exportData(currentData)}
+          onOpenAuth={() => setShowAuthPanel(true)}
         />
 
         <main>
